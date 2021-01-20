@@ -11,6 +11,12 @@
 .About-pic {
   height: 400px;
   width: 400px;
+  filter: grayscale();
+  transition: 0.5s filter ease;
+}
+
+.About-pic:hover {
+  filter: none;
 }
 
 .About p {
@@ -33,4 +39,5 @@
   margin: 20px;
   font-size: 8rem;
   font-weight: bold;
+  letter-spacing: -4px;
 }

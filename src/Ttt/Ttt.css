@@ -73,11 +73,10 @@ ul {
   color: black;
 }
 
-
-
 .game-link {
   padding-top: 0px;
   font-size: 8rem;
   font-weight: bold;
   text-align: center;
+  letter-spacing: -4px;
 }

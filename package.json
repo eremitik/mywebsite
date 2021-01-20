@@ -1,6 +1,6 @@
 {
   "homepage": "https://eremitik.github.io/mywebsite/",
-  "name": "practice",
+  "name": "mywebsite",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

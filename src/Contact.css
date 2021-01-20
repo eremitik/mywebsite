@@ -9,13 +9,19 @@
 .Contact-pic {
   height: 400px;
   width: 400px;
-  filter: grayscale(100%);
+  filter: grayscale();
+  transition: 0.5s filter ease;
+}
+
+.Contact-pic:hover {
+  filter: none;
 }
 
 .Contact-link {
   margin: 20px;
   font-size: 8rem;
   font-weight: bold;
+  letter-spacing: -4px;
 }
 
 .Contact-icons {
@@ -44,5 +50,4 @@
   height: 12px;
   width: auto;
   margin: 0 0 2px 25px;
-
 }
