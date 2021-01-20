@@ -18,8 +18,8 @@ class Projects extends Component {
           <li><Link to='/projects/lotto'>Lottery.</Link></li>
           <li><Link to='/projects/pokedex'>Pokedex.</Link></li>
           <li><Link to='/projects/rolldice'>Roll Dice.</Link></li>
-          <li><Link to='/projects/todo'>To-do List.</Link></li>
           <li><Link to='/projects/ttt'>Tic-tac-toe.</Link></li>
+          <li><Link to='/projects/todo'>To-do List.</Link></li>
         </ul>
         <p className="Projects-link">
             <Link to='/'>home</Link>
