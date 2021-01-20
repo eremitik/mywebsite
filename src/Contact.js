@@ -13,25 +13,25 @@ class About extends Component {
     return (
       <div className="Contact">
         <h1>Contact me.</h1>
-        <img className="Contact-pic" src={mcrosby} />
+        <img className="Contact-pic" src={mcrosby} alt='profile'/>
         {/* <p>mikio.crosby@gmail.com</p> */}
         {/* <p>miks@pokket.com</p> */}
 
         <div className="Contact-icons">
         <a href="https://github.com/eremitik">
-          <img className="Contact-github" src={github} />
+          <img className="Contact-github" src={github} alt='github'/>
         </a>
 
         <a href="https://twitter.com/eremitik">
-          <img className="Contact-twitter" src={twitter} />
+          <img className="Contact-twitter" src={twitter} alt='twitter'/>
         </a>
 
         <a href="https://www.youtube.com/channel/UCCCNJEKyE-KDqM-vfGFuBBQ/featured">
-          <img className="Contact-youtube" src={youtube} />
+          <img className="Contact-youtube" src={youtube} alt='youtube'/>
         </a>
 
         <a href="https://pokket.com/">
-          <img className="Contact-pokket" src={pokket} />
+          <img className="Contact-pokket" src={pokket} alt='pokket'/>
         </a>
         
         </div>

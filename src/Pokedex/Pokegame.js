@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { BrowserRouter as Router, Route} from 'react-router-dom'
+import { HashRouter as Router, Route, Link} from 'react-router-dom'
 import Projects from '../Projects.js'
 import Pokedex from './Pokedex.js'
 import './Pokegame.css'
@@ -39,7 +39,7 @@ class Pokegame extends Component {
         <Router>
           <Route exact path='/projects' render={()=> <Projects/>}/>
         </Router>
-        <p className="game-link"><a href='/projects'>back</a></p>
+        <p className="game-link"><Link to='/projects'>back</Link></p>
       </div>
     )
   }

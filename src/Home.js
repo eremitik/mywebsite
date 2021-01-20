@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {Link} from 'react-router-dom';
 import './App.css';
 import diamond from './images/diamond.jpg';
 import './Home.css';
@@ -14,9 +15,9 @@ class Home extends Component {
           <h1 className='Name'>eremitik.</h1>
             <div className="Container">
               <ul className="Links" style={{listStyleType:"none"}}>
-               <li><a href='/about'>about</a></li>
-               <li><a href='/projects'>projects</a></li>
-               <li><a href='/contact'>contact</a></li>
+               <li><Link to='/about'>about</Link></li>
+               <li><Link to='/projects'>projects</Link></li>
+               <li><Link to='/contact'>contact</Link></li>
               </ul>
             </div>
         </div>

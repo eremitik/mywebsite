@@ -10,7 +10,7 @@ class About extends Component {
     return (
       <div className="About">
         <h1>Mikio Crosby.</h1>
-        <img className="About-pic" src={pig}/>
+        <img className="About-pic" src={pig} alt='pig'/>
         <div className="About-desc">
           I am a cryptocurrency enthusiast with a background in traditional finance. 
           This site is a collection of my projects in my pursuit of learning to code.

@@ -1,8 +1,8 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import './Ttt.css';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { HashRouter as Router, Link, Route } from 'react-router-dom';
 import Projects from '../Projects.js';
+// import ReactDOM from 'react-dom';
 
 
 // class Square extends React.Component {
@@ -134,7 +134,7 @@ class Game extends React.Component {
         <Router>
           <Route exact path='/' render={()=> <Projects/>}/>
         </Router>
-        <p className="game-link"><a href='/projects'>back</a></p>
+        <p className="game-link"><Link to='/projects'>back</Link></p>
       </div>
     );
   }
@@ -142,10 +142,10 @@ class Game extends React.Component {
 
 // ========================================
 
-ReactDOM.render(
-  <Game />,
-  document.getElementById('root')
-);
+// ReactDOM.render(
+//   <Game />,
+//   document.getElementById('root')
+// );
 
 function calculateWinner(squares){
   const lines = [
