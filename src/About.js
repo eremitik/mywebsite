@@ -15,6 +15,10 @@ class About extends Component {
           I am a cryptocurrency enthusiast with a background in traditional finance. 
           This site is a collection of my projects in my pursuit of learning to code.
         </div>
+        <br></br>
+        <div className="About-desc">
+          This site and all projects were made with React. Source code can be found <b><a href="https://github.com/eremitik/mywebsite">here</a></b>.
+        </div>
         <p className="About-link">
           <Link  to='/'>home</Link>
         </p>
