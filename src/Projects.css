@@ -1,0 +1,36 @@
+.Projects {
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+}
+/*  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100vw;*/
+
+
+.Projects-img {
+  height: auto;
+  width: 450px;
+  flex: 1;
+  filter: grayscale();
+  transition: 0.5s filter ease;
+}
+
+.Projects-img:hover {
+  filter: none;
+}
+
+.Projects-link {
+  margin: 25px;
+  font-size: 8rem;
+  font-weight: bold;
+  letter-spacing: -4px;
+
+}
+
+.Projects-list {
+  margin: 0px;
+  list-style-type: none;
+}
