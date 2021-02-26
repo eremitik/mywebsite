@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/mywebsite/static/css/main.e5d10949.chunk.css",
-    "main.js": "/mywebsite/static/js/main.421ecbe3.chunk.js",
-    "main.js.map": "/mywebsite/static/js/main.421ecbe3.chunk.js.map",
+    "main.css": "/mywebsite/static/css/main.35869dcd.chunk.css",
+    "main.js": "/mywebsite/static/js/main.04b5a534.chunk.js",
+    "main.js.map": "/mywebsite/static/js/main.04b5a534.chunk.js.map",
     "runtime-main.js": "/mywebsite/static/js/runtime-main.3d5156a0.js",
     "runtime-main.js.map": "/mywebsite/static/js/runtime-main.3d5156a0.js.map",
     "static/js/2.fdb4c1fb.chunk.js": "/mywebsite/static/js/2.fdb4c1fb.chunk.js",
@@ -10,15 +10,17 @@
     "static/js/3.15e6c8f0.chunk.js": "/mywebsite/static/js/3.15e6c8f0.chunk.js",
     "static/js/3.15e6c8f0.chunk.js.map": "/mywebsite/static/js/3.15e6c8f0.chunk.js.map",
     "index.html": "/mywebsite/index.html",
-    "static/css/main.e5d10949.chunk.css.map": "/mywebsite/static/css/main.e5d10949.chunk.css.map",
+    "static/css/main.35869dcd.chunk.css.map": "/mywebsite/static/css/main.35869dcd.chunk.css.map",
     "static/js/2.fdb4c1fb.chunk.js.LICENSE.txt": "/mywebsite/static/js/2.fdb4c1fb.chunk.js.LICENSE.txt",
     "static/media/500yenback.a4f00f4b.jpg": "/mywebsite/static/media/500yenback.a4f00f4b.jpg",
     "static/media/500yenfront.5c7e0478.jpg": "/mywebsite/static/media/500yenfront.5c7e0478.jpg",
     "static/media/contactme.dec5fa8e.jpg": "/mywebsite/static/media/contactme.dec5fa8e.jpg",
     "static/media/dai-logo.96d06a33.png": "/mywebsite/static/media/dai-logo.96d06a33.png",
     "static/media/diamond.1d191e20.jpg": "/mywebsite/static/media/diamond.1d191e20.jpg",
+    "static/media/lasers.1782a5aa.png": "/mywebsite/static/media/lasers.1782a5aa.png",
     "static/media/mcrosby.2ae8af36.jpg": "/mywebsite/static/media/mcrosby.2ae8af36.jpg",
     "static/media/projects.97a0faba.jpg": "/mywebsite/static/media/projects.97a0faba.jpg",
+    "static/media/setup.8ef7ae20.jpg": "/mywebsite/static/media/setup.8ef7ae20.jpg",
     "static/media/uniswap-logo.908051ad.png": "/mywebsite/static/media/uniswap-logo.908051ad.png",
     "static/media/whitegithub.ddfbbcdc.png": "/mywebsite/static/media/whitegithub.ddfbbcdc.png",
     "static/media/whitepokket.955f9599.png": "/mywebsite/static/media/whitepokket.955f9599.png",
@@ -27,7 +29,7 @@
   "entrypoints": [
     "static/js/runtime-main.3d5156a0.js",
     "static/js/2.fdb4c1fb.chunk.js",
-    "static/css/main.e5d10949.chunk.css",
-    "static/js/main.421ecbe3.chunk.js"
+    "static/css/main.35869dcd.chunk.css",
+    "static/js/main.04b5a534.chunk.js"
   ]
 }
