@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from "react-router-dom";
 import pig from './images/contactme.jpg';
+import setup from './images/setup.jpg';
 
 import './About.css';
 
@@ -10,12 +11,14 @@ class About extends Component {
     return (
       <div className="About">
         <h1>Mikio Crosby.</h1>
-        <img className="About-pic" src={pig} alt='pig'/>
+        <img className="About-pic" src={setup} alt='pig'/>
+        <br/>
+        <br/>
         <div className="About-desc">
           I am a cryptocurrency enthusiast with a background in traditional finance. 
-          This site is a collection of my projects in my pursuit of learning to code.
+          This site is a collection of my projects in the pursuit of learning to code.
         </div>
-        <br></br>
+        <br/>
         <div className="About-desc">
           This site and projects were made with React + Solidity. Source code can be found <b><a href="https://github.com/eremitik/mywebsite/tree/src_folder">here</a></b>.
         </div>

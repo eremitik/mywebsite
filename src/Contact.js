@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import mcrosby from './images/mcrosby.jpg';
+import lasers from './images/lasers.png';
 import github from './images/whitegithub.png';
 import twitter from './images/whitetwitter.png';
 import youtube from './images/whiteyt.png';
@@ -14,7 +15,7 @@ class About extends Component {
     return (
       <div className="Contact">
         <h1>Contact me.</h1>
-        <img className="Contact-pic" src={mcrosby} alt='profile'/>
+        <img className="Contact-pic" src={lasers} alt='profile'/>
         {/* <p>mikio.crosby@gmail.com</p> */}
         {/* <p>miks@pokket.com</p> */}
 

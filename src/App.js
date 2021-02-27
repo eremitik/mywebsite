@@ -14,6 +14,7 @@ import Lotto from './Lotto/Lottery.js';
 import ColorBox from './ColorBox/BoxContainer.js';
 import ToDo from './ToDo/TodoList.js';
 import Usexplorer from './Usexplorer/Usexplorer.js';
+import Responsive from './Responsive/Responsive.js';
 //import Threed from './Threed/app.js';
 import './App.css';
 
@@ -39,6 +40,7 @@ class App extends Component {
               <Route exact path='/projects/colorbox' render={()=> <ColorBox />}/>
               <Route exact path='/projects/todo' render={()=> <ToDo />}/>
               <Route exact path='/projects/usexplorer' render={()=> <Usexplorer />}/>
+              <Route exact path='/projects/responsive' render={()=> <Responsive />}/>
           </Switch>
         </Router>
       </div>

@@ -13,6 +13,7 @@
   width: 400px;
   filter: grayscale();
   transition: 0.5s filter ease;
+  border-radius: 25px;
 }
 
 .About-pic:hover {
@@ -20,7 +21,7 @@
 }
 
 .About p {
-  width: 600px;
+  width: 400px;
   text-align: center;
 }
 
@@ -31,7 +32,7 @@
 .About-desc {
   margin: auto;
   font-size: 0.9rem;
-  width: 400px;
+  width: 350px;
   text-align: center;
 }
 

@@ -10,6 +10,7 @@
   height: 400px;
   filter: grayscale();
   transition: 0.5s filter ease;
+  border-radius: 25px;
 }
 
 .Contact-pic:hover {
