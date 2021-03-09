@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/mywebsite/static/css/main.f8a2c393.chunk.css",
-    "main.js": "/mywebsite/static/js/main.c7c8f54d.chunk.js",
-    "main.js.map": "/mywebsite/static/js/main.c7c8f54d.chunk.js.map",
-    "runtime-main.js": "/mywebsite/static/js/runtime-main.3d5156a0.js",
-    "runtime-main.js.map": "/mywebsite/static/js/runtime-main.3d5156a0.js.map",
-    "static/js/2.fdb4c1fb.chunk.js": "/mywebsite/static/js/2.fdb4c1fb.chunk.js",
-    "static/js/2.fdb4c1fb.chunk.js.map": "/mywebsite/static/js/2.fdb4c1fb.chunk.js.map",
-    "static/js/3.15e6c8f0.chunk.js": "/mywebsite/static/js/3.15e6c8f0.chunk.js",
-    "static/js/3.15e6c8f0.chunk.js.map": "/mywebsite/static/js/3.15e6c8f0.chunk.js.map",
+    "main.css": "/mywebsite/static/css/main.8ab13824.chunk.css",
+    "main.js": "/mywebsite/static/js/main.36739d3b.chunk.js",
+    "main.js.map": "/mywebsite/static/js/main.36739d3b.chunk.js.map",
+    "runtime-main.js": "/mywebsite/static/js/runtime-main.3dfc927e.js",
+    "runtime-main.js.map": "/mywebsite/static/js/runtime-main.3dfc927e.js.map",
+    "static/js/2.97161d59.chunk.js": "/mywebsite/static/js/2.97161d59.chunk.js",
+    "static/js/2.97161d59.chunk.js.map": "/mywebsite/static/js/2.97161d59.chunk.js.map",
+    "static/js/3.8c9c282f.chunk.js": "/mywebsite/static/js/3.8c9c282f.chunk.js",
+    "static/js/3.8c9c282f.chunk.js.map": "/mywebsite/static/js/3.8c9c282f.chunk.js.map",
     "index.html": "/mywebsite/index.html",
-    "static/css/main.f8a2c393.chunk.css.map": "/mywebsite/static/css/main.f8a2c393.chunk.css.map",
-    "static/js/2.fdb4c1fb.chunk.js.LICENSE.txt": "/mywebsite/static/js/2.fdb4c1fb.chunk.js.LICENSE.txt",
+    "static/css/main.8ab13824.chunk.css.map": "/mywebsite/static/css/main.8ab13824.chunk.css.map",
+    "static/js/2.97161d59.chunk.js.LICENSE.txt": "/mywebsite/static/js/2.97161d59.chunk.js.LICENSE.txt",
     "static/media/500yenback.a4f00f4b.jpg": "/mywebsite/static/media/500yenback.a4f00f4b.jpg",
     "static/media/500yenfront.5c7e0478.jpg": "/mywebsite/static/media/500yenfront.5c7e0478.jpg",
     "static/media/contactme.dec5fa8e.jpg": "/mywebsite/static/media/contactme.dec5fa8e.jpg",
@@ -27,9 +27,9 @@
     "static/media/whiteyt.5ef29ecd.png": "/mywebsite/static/media/whiteyt.5ef29ecd.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.3d5156a0.js",
-    "static/js/2.fdb4c1fb.chunk.js",
-    "static/css/main.f8a2c393.chunk.css",
-    "static/js/main.c7c8f54d.chunk.js"
+    "static/js/runtime-main.3dfc927e.js",
+    "static/js/2.97161d59.chunk.js",
+    "static/css/main.8ab13824.chunk.css",
+    "static/js/main.36739d3b.chunk.js"
   ]
 }
