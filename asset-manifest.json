@@ -1,20 +1,19 @@
 {
   "files": {
-    "main.css": "/mywebsite/static/css/main.8ab13824.chunk.css",
-    "main.js": "/mywebsite/static/js/main.c80cb7c8.chunk.js",
-    "main.js.map": "/mywebsite/static/js/main.c80cb7c8.chunk.js.map",
-    "runtime-main.js": "/mywebsite/static/js/runtime-main.3dfc927e.js",
-    "runtime-main.js.map": "/mywebsite/static/js/runtime-main.3dfc927e.js.map",
-    "static/js/2.97161d59.chunk.js": "/mywebsite/static/js/2.97161d59.chunk.js",
-    "static/js/2.97161d59.chunk.js.map": "/mywebsite/static/js/2.97161d59.chunk.js.map",
-    "static/js/3.8c9c282f.chunk.js": "/mywebsite/static/js/3.8c9c282f.chunk.js",
-    "static/js/3.8c9c282f.chunk.js.map": "/mywebsite/static/js/3.8c9c282f.chunk.js.map",
+    "main.css": "/mywebsite/static/css/main.a9877460.chunk.css",
+    "main.js": "/mywebsite/static/js/main.a86ce40a.chunk.js",
+    "main.js.map": "/mywebsite/static/js/main.a86ce40a.chunk.js.map",
+    "runtime-main.js": "/mywebsite/static/js/runtime-main.b2fa07b9.js",
+    "runtime-main.js.map": "/mywebsite/static/js/runtime-main.b2fa07b9.js.map",
+    "static/js/2.7a3049e5.chunk.js": "/mywebsite/static/js/2.7a3049e5.chunk.js",
+    "static/js/2.7a3049e5.chunk.js.map": "/mywebsite/static/js/2.7a3049e5.chunk.js.map",
+    "static/js/3.36a17f34.chunk.js": "/mywebsite/static/js/3.36a17f34.chunk.js",
+    "static/js/3.36a17f34.chunk.js.map": "/mywebsite/static/js/3.36a17f34.chunk.js.map",
     "index.html": "/mywebsite/index.html",
-    "static/css/main.8ab13824.chunk.css.map": "/mywebsite/static/css/main.8ab13824.chunk.css.map",
-    "static/js/2.97161d59.chunk.js.LICENSE.txt": "/mywebsite/static/js/2.97161d59.chunk.js.LICENSE.txt",
+    "static/css/main.a9877460.chunk.css.map": "/mywebsite/static/css/main.a9877460.chunk.css.map",
+    "static/js/2.7a3049e5.chunk.js.LICENSE.txt": "/mywebsite/static/js/2.7a3049e5.chunk.js.LICENSE.txt",
     "static/media/500yenback.a4f00f4b.jpg": "/mywebsite/static/media/500yenback.a4f00f4b.jpg",
     "static/media/500yenfront.5c7e0478.jpg": "/mywebsite/static/media/500yenfront.5c7e0478.jpg",
-    "static/media/contactme.dec5fa8e.jpg": "/mywebsite/static/media/contactme.dec5fa8e.jpg",
     "static/media/dai-logo.96d06a33.png": "/mywebsite/static/media/dai-logo.96d06a33.png",
     "static/media/diamond.1d191e20.jpg": "/mywebsite/static/media/diamond.1d191e20.jpg",
     "static/media/lasers.1782a5aa.png": "/mywebsite/static/media/lasers.1782a5aa.png",
@@ -27,9 +26,9 @@
     "static/media/whiteyt.5ef29ecd.png": "/mywebsite/static/media/whiteyt.5ef29ecd.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.3dfc927e.js",
-    "static/js/2.97161d59.chunk.js",
-    "static/css/main.8ab13824.chunk.css",
-    "static/js/main.c80cb7c8.chunk.js"
+    "static/js/runtime-main.b2fa07b9.js",
+    "static/js/2.7a3049e5.chunk.js",
+    "static/css/main.a9877460.chunk.css",
+    "static/js/main.a86ce40a.chunk.js"
   ]
 }
