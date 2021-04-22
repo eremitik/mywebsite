@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/mywebsite/static/css/main.ca6f776d.chunk.css",
-    "main.js": "/mywebsite/static/js/main.787147f5.chunk.js",
-    "main.js.map": "/mywebsite/static/js/main.787147f5.chunk.js.map",
-    "runtime-main.js": "/mywebsite/static/js/runtime-main.a1d8f6e4.js",
-    "runtime-main.js.map": "/mywebsite/static/js/runtime-main.a1d8f6e4.js.map",
-    "static/js/2.f928f6e5.chunk.js": "/mywebsite/static/js/2.f928f6e5.chunk.js",
-    "static/js/2.f928f6e5.chunk.js.map": "/mywebsite/static/js/2.f928f6e5.chunk.js.map",
-    "static/js/3.674cae36.chunk.js": "/mywebsite/static/js/3.674cae36.chunk.js",
-    "static/js/3.674cae36.chunk.js.map": "/mywebsite/static/js/3.674cae36.chunk.js.map",
+    "main.js": "/mywebsite/static/js/main.7f72173c.chunk.js",
+    "main.js.map": "/mywebsite/static/js/main.7f72173c.chunk.js.map",
+    "runtime-main.js": "/mywebsite/static/js/runtime-main.eca3a05c.js",
+    "runtime-main.js.map": "/mywebsite/static/js/runtime-main.eca3a05c.js.map",
+    "static/js/2.e13dcd97.chunk.js": "/mywebsite/static/js/2.e13dcd97.chunk.js",
+    "static/js/2.e13dcd97.chunk.js.map": "/mywebsite/static/js/2.e13dcd97.chunk.js.map",
+    "static/js/3.ca45e052.chunk.js": "/mywebsite/static/js/3.ca45e052.chunk.js",
+    "static/js/3.ca45e052.chunk.js.map": "/mywebsite/static/js/3.ca45e052.chunk.js.map",
     "index.html": "/mywebsite/index.html",
     "static/css/main.ca6f776d.chunk.css.map": "/mywebsite/static/css/main.ca6f776d.chunk.css.map",
-    "static/js/2.f928f6e5.chunk.js.LICENSE.txt": "/mywebsite/static/js/2.f928f6e5.chunk.js.LICENSE.txt",
+    "static/js/2.e13dcd97.chunk.js.LICENSE.txt": "/mywebsite/static/js/2.e13dcd97.chunk.js.LICENSE.txt",
     "static/media/500yenback.a4f00f4b.jpg": "/mywebsite/static/media/500yenback.a4f00f4b.jpg",
     "static/media/500yenfront.5c7e0478.jpg": "/mywebsite/static/media/500yenfront.5c7e0478.jpg",
     "static/media/dai-logo.96d06a33.png": "/mywebsite/static/media/dai-logo.96d06a33.png",
@@ -26,9 +26,9 @@
     "static/media/whiteyt.5ef29ecd.png": "/mywebsite/static/media/whiteyt.5ef29ecd.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.a1d8f6e4.js",
-    "static/js/2.f928f6e5.chunk.js",
+    "static/js/runtime-main.eca3a05c.js",
+    "static/js/2.e13dcd97.chunk.js",
     "static/css/main.ca6f776d.chunk.css",
-    "static/js/main.787147f5.chunk.js"
+    "static/js/main.7f72173c.chunk.js"
   ]
 }
