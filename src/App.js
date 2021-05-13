@@ -15,14 +15,16 @@ import ColorBox from './ColorBox/BoxContainer.js';
 import ToDo from './ToDo/TodoList.js';
 import Usexplorer from './Usexplorer/Usexplorer.js';
 import Responsive from './Responsive/Responsive.js';
+import HistoricalPx from './HistoricalPx/Histpx.js';
 //import Threed from './Threed/app.js';
-import './App.css';
+
+
 
 
 class App extends Component {
   render(){
     return (
-      <div className="App">
+      <div>
         {/* <Router basename={process.env.PUBLIC_URL}> */}
         <Router>
           <Switch>
@@ -41,6 +43,7 @@ class App extends Component {
               <Route exact path='/projects/todo' render={()=> <ToDo />}/>
               <Route exact path='/projects/usexplorer' render={()=> <Usexplorer />}/>
               <Route exact path='/projects/responsive' render={()=> <Responsive />}/>
+              <Route exact path='/projects/histpx' render={()=> <HistoricalPx />}/>
           </Switch>
         </Router>
       </div>

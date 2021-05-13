@@ -7,45 +7,174 @@ import twitter from './images/whitetwitter.png';
 import youtube from './images/whiteyt.png';
 import pokket from './images/whitepokket.png';
 import linkedin from './images/whitelinkedin.png';
-import './Contact.css';
+import styled from 'styled-components';
+
+const ContactContainer = styled.div`
+  html, body{
+    text-align: center;
+    color: white;
+    margin: auto;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+  }
+
+ img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    height: 400px;
+    filter: grayscale();
+    transition: 0.5s filter ease;
+    border-radius: 25px;
+
+  }
+
+  img:hover{
+    filter: none;
+  }
+
+  p{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    text-align: center;
+  }
+
+  h1{
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  link{
+    text-align: center;
+    font-size: 8rem;
+    font-weight: bold;
+    letter-spacing: -4px;
+  }
+
+
+  @media screen and (max-width: 767px) {
+
+    html, body{
+      overflow-x: hidden;
+      overflow-y: hidden;
+      height: 100vh;
+      width: 100vw;
+    }
+
+    body{
+      position: relative;
+    }
+
+    img{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      height: 300px;
+    }
+
+    p{
+      width: 300px;      
+    }
+  }
+`
+
+const SocialLinksContainer = styled.div`
+  div{
+    text-align: center;
+
+  }
+`
+
+const SocialLinks = styled.div`
+  img{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    height: 15px;
+    width: auto;
+    padding: 25px; 
+  }
+`
+
+const HomeLink = styled.a`
+
+  a{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    text-decoration: none;      
+    color: white;               
+    letter-spacing: -4px;       
+    font-size: 8rem;
+    font-weight: bold;
+    padding-top: 25px;
+    transition: .2s;
+  }                                 
+
+  @media screen and (min-width: 901px) {
+    a:hover{
+      color: grey;
+    }
+  }
+
+   @media screen and (max-width: 767px) {
+    a{
+     font-size: 4rem;
+     text-decoration: underline;
+     }
+   }
+  @media screen and (min-width: 901px) {
+    a:hover{
+      color: grey;
+    }
+  }
+
+
+`
+
 
 
 class About extends Component {
   render() {
     return (
-      <div className="Contact">
+      <ContactContainer>
         <h1>Contact me.</h1>
         <img className="Contact-pic" src={lasers} alt='profile'/>
-        {/* <p>mikio.crosby@gmail.com</p> */}
-        {/* <p>miks@pokket.com</p> */}
 
-        <div className="Contact-icons">
+        <SocialLinksContainer>
+        <SocialLinks>
         <a href="https://github.com/eremitik">
-          <img className="Contact-github" src={github} alt='github'/>
+          <img src={github} alt='github'/>
         </a>
 
         <a href="https://twitter.com/eremitik">
-          <img className="Contact-twitter" src={twitter} alt='twitter'/>
+          <img src={twitter} alt='twitter'/>
         </a>
 
         <a href="https://www.youtube.com/channel/UCCCNJEKyE-KDqM-vfGFuBBQ/featured">
-          <img className="Contact-youtube" src={youtube} alt='youtube'/>
+          <img src={youtube} alt='youtube'/>
         </a>
 
         <a href="https://www.linkedin.com/in/eremitik/">
-          <img className="Contact-linkedin" src={linkedin} alt='linkedin'/>
+          <img src={linkedin} alt='linkedin'/>
         </a>
 
         <a href="https://pokket.com/">
-          <img className="Contact-pokket" src={pokket} alt='pokket'/>
+          <img src={pokket} alt='pokket'/>
         </a>
-        
-        </div>
+        </SocialLinks>
+        </SocialLinksContainer>
 
-        <p className="Contact-link">
+        <HomeLink>
           <Link  to='/'>home</Link>
-        </p>
-      </div>
+        </HomeLink>
+      </ContactContainer>
     )
   }
 }
