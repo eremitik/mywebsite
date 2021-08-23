@@ -1,0 +1,40 @@
+.Lottery {
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Lottery h1 {
+  font-size: 3rem;
+}
+
+.Lottery button {
+  width: 15em;
+  padding: 1.5em;
+  border: 2px solid;
+  border-radius: 10px;
+  border-color: white;
+  font: inherit;
+  color: white;
+  background-color: black;
+  margin-top: 3em;
+  align-self: center;
+}
+
+.Lottery button:hover {
+  background-color: white;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+}
+
+.Lottery-link {
+  margin: 50px;
+  font-size: 8rem;
+  font-weight: bold;
+  letter-spacing: -4px;
+  text-align: center;
+}

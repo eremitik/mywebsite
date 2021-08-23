@@ -1,0 +1,24 @@
+.BoxContainer-body {
+  margin: 0px;
+  text-align: center;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.BoxContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  margin: 0;
+}
+
+.BoxContainer h1 {
+  margin: 0;
+}
+
+.BoxContainer p {
+  margin: -10px;
+  font-weight: light;
+}
