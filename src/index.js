@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { ApolloProvider } from 'react-apollo';
-import { client } from '../src/Usexplorer/Usexplorer.js';
+import { client } from '../src/views/Usexplorer/Usexplorer.js';
 
 ReactDOM.render(
   <ApolloProvider client={client}>
