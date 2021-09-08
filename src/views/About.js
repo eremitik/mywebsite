@@ -132,7 +132,7 @@ class About extends Component {
         </p>
         <br/>
         <p>
-          This site and projects were made with React + Solidity. Source code can be found <a href="https://github.com/eremitik/mywebsite/tree/source">here</a>.
+          This site was made with React + Styled-Components. The source code for the site can be found <a href="https://github.com/eremitik/mywebsite/tree/source">here</a>.
         </p>
         <HomeLink>
           <Link to='/'>home</Link>
