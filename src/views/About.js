@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from "react-router-dom";
-import setup from './images/setup.jpg';
+import setup from '../images/setup.jpg';
 import styled from 'styled-components';
 
 const AboutContainer = styled.div`
@@ -132,7 +132,7 @@ class About extends Component {
         </p>
         <br/>
         <p>
-          This site and projects were made with React + Solidity. Source code can be found <a href="https://github.com/eremitik/mywebsite/tree/src_folder">here</a>.
+          This site and projects were made with React + Solidity. Source code can be found <a href="https://github.com/eremitik/mywebsite/tree/source">here</a>.
         </p>
         <HomeLink>
           <Link to='/'>home</Link>

@@ -1,9 +1,7 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
-import diamond from './images/diamond.jpg';
+import diamond from '../images/diamond.jpg';
 import styled from 'styled-components';
-import { motion } from 'framer-motion';
-import { animationOne } from './animations';
 
 const HomeContainer = styled.div`
   body {
@@ -86,12 +84,9 @@ const HomeContainer = styled.div`
   }
 `
 
-
-
 class Home extends Component {
   render(){
     return (
-      <motion.div initial="out" animate="in" exit="out" variants={animationOne}>
       <HomeContainer>
           <h1>eremitik.</h1>
               <ul>
@@ -101,7 +96,6 @@ class Home extends Component {
               </ul>
           <img src={diamond} alt='diamond'/>
       </HomeContainer>
-      </motion.div>
     );
   }
 }

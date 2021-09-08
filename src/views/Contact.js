@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
-import mcrosby from './images/mcrosby.jpg';
-import lasers from './images/lasers.png';
-import github from './images/whitegithub.png';
-import twitter from './images/whitetwitter.png';
-import youtube from './images/whiteyt.png';
-import pokket from './images/whitepokket.png';
-import linkedin from './images/whitelinkedin.png';
+import lasers from '../images/lasers.png';
+import github from '../images/whitegithub.png';
+import twitter from '../images/whitetwitter.png';
+import youtube from '../images/whiteyt.png';
+import pokket from '../images/whitepokket.png';
+import linkedin from '../images/whitelinkedin.png';
 import styled from 'styled-components';
 
 const ContactContainer = styled.div`

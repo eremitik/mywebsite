@@ -1,14 +1,14 @@
-import React, { useEffect } from 'react'
-import { HashRouter as Router, Link, Route } from 'react-router-dom';
+import React from 'react'
+import { HashRouter as Router, Link } from 'react-router-dom';
 import './Usexplorer.css'
 import { ApolloClient } from 'apollo-client'
 import { InMemoryCache } from 'apollo-cache-inmemory'
 import { HttpLink } from 'apollo-link-http'
 import { useQuery } from '@apollo/react-hooks'
 import gql from 'graphql-tag'
-import uniswapLogo from '../images/uniswap-logo.png'
-import daiLogo from '../images/dai-logo.png'
-import zeroxLogo from '../images/zerox.png'
+import uniswapLogo from '../../images/uniswap-logo.png'
+import daiLogo from '../../images/dai-logo.png'
+import zeroxLogo from '../../images/zerox.png'
 
 export const client = new ApolloClient({
   link: new HttpLink({

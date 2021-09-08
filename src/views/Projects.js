@@ -1,22 +1,9 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
-import pic from './images/projects.jpg';
+import pic from '../images/projects.jpg';
 import styled from 'styled-components';
 
-const Container = styled.div`
-  text-align: center;
-`
-
 const ProjectContainer = styled.div`
-  html, body{
-    text-align: left;
-    color: white;
-    margin: auto;
-    text-align: center;
-    height: 100vh;
-    width: 100vw;
-  }
-
   a{
     color: white;
     text-decoration: none;
@@ -37,8 +24,6 @@ const ProjectContainer = styled.div`
     width: 450px;
     filter: grayscale();
     transition: 0.5s filter ease;
-    border-radius: 25px;
-
   }
 
   img:hover{
@@ -46,7 +31,7 @@ const ProjectContainer = styled.div`
   }
 
   ul{
-  display: block;
+    display: block;
     margin-left: auto;
     margin-right: auto;
     bottom: 0px;
@@ -146,7 +131,6 @@ const HomeLink = styled.a`
 class Projects extends Component {
   render() {
     return (
-      <Container>
       <ProjectContainer>
       <h1>Projects.</h1>
         <img src={pic} alt='macbook'/>
@@ -155,17 +139,12 @@ class Projects extends Component {
           <li> <a href="https://eremitik-instadapp.netlify.app/"><b>📷Instadapp</b>  |  React + Solidity + IPFS</a></li>
           <li> <a href="https://eremitik-multisig.netlify.app/"><b>👛Multisig Wallet</b>  |  React + Solidity + Web3.0</a></li>
           <li> <a href="https://eremitik-nflipt.netlify.app/"><b>👀NFlipT</b>  |  React + Solidity + Web3.0</a></li>
-          <li> <a href="https://eremitik-sushiswap.netlify.app/"><b>🍣Sushiswap Fork</b>  |  React + Web3.0</a></li>
           <li><Link to='/projects/usexplorer'><b>🦄Uniswap Explorer</b>  |  React + The Graph</Link></li>
-          <li> <a href="https://eremitik-uniswap.netlify.app/#/swap"><b>🍴Uniswap Fork</b>  |  React + Web3.0</a></li>
           <h2>React</h2>
           <li> <a href="https://eremitik-5w.netlify.app/#/"><b>📰5w</b>  |  React + Twitter API</a></li>
-          <li> <a href="https://eremitik-cars.netlify.app"><b>🚗Carsite</b>  |  React</a></li>
           <li> <a href="https://eremitik-crypto-yields.netlify.app/"><b>💸Crypto Yields</b>  |  React + Google Sheet backend</a></li>
           <li><Link to='/projects/histpx'><b>📈Historical Prices</b>  |  React + Coingecko API</Link></li>
-          <li> <a href="https://pkkt.netlify.app/"><b>📄Landing Page</b>  |  React</a></li>
-          <li><Link to='/projects/lightsout'><b>💡Lights Out</b>  |  React</Link></li>
-          {/* <li><Link to='/projects/responsive'>📱Responsive</Link></li> */}
+          <li> <a href="http://13.212.157.177/#/"><b>👐Renty</b>  |  MERN stack + JWT + Ethers.js + EC2</a></li>
           <li> <a href="https://sageka.netlify.app/"><b>⚖️Sageka</b>  |  MERN stack</a></li>
           <h2>Vue</h2>
           <li> <a href="https://givesy.herokuapp.com/"><b>🎁Givesy</b>  |  PEVN stack</a></li>
@@ -174,7 +153,6 @@ class Projects extends Component {
             <Link to='/'>home</Link>
           </HomeLink>
       </ProjectContainer>
-      </Container>
     )
   }
 }
