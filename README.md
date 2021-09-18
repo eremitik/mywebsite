@@ -1,7 +1,6 @@
 # My Website
 
-My portfolio website to showcase and highlight what I've been working on.\
-Please visit the site [here](https://eremitik.github.io/mywebsite/#/)!
+My old portfolio website to showcase and highlight what I'd been working on.\
 ![home](./home.png)
 ![home](./projects.png)
 
